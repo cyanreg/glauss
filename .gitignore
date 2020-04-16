@@ -1,0 +1,10 @@
+*.xyz
+*.log
+*.bin
+.waf*
+.lock*
+waf
+.kateproject
+.kateproject.d
+config.log
+build

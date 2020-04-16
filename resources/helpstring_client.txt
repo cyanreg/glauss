@@ -1,0 +1,13 @@
+Usage: glauss_client -f (file) (arguments)
+		--novid			Will run the program without any video outputting enabled.
+		--bench			Will run the program in benchmark mode. timer flag sets duration.
+	-V	--version		Will report version and compile date.
+	-f	--file			Specifies input file. Read the manual page for syntax.
+	-h	--help			What you're reading.
+	-a	--algorithm (string)	Select an algorithm to use. To list all: "help".
+	-l	--log (file)		Log everything to a file.
+	-e	--final_frame (llu)	Run simulation until this frame, then pause.
+	-t	--threads (uint)	Use this amount of threads.
+	-r	--timer (float)		OSD FPS update rate/benchmark duration.
+	-v	--verb (uint)		STDOUT spam level.
+	-u	--lua_val (string)	String to send to Lua's spawn_objects function.
